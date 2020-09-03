@@ -1,0 +1,14 @@
+[
+    {
+    "id": "ibm/zopendebug-profileui",
+    "displayName": "zopendebug-profileui",
+    "version": "1.0.1",
+    "type": "VS Code extension",
+    "name": "zopendebug-profileui",
+    "description": "A test extension.",
+    "publisher": "ibm",
+    "links": {
+    "self": "/my-plugin-registry/ibm/zopendebug-profileui/1.0.1/meta.yaml"
+    }
+}
+]
