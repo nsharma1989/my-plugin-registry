@@ -11,5 +11,6 @@ repository: https://github.com/nsharma1989/carbon-tutorial
 category: Other
 firstPublicationDate: '2019-10-19'
 spec:
+  type: webview
   extensions:
   - https://github.com/nsharma1989/my-plugin-registry/raw/master/ibm/zopendebug-profileui/1.0.1/zopendebug-profileui-1.0.0.vsix
