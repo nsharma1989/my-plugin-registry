@@ -13,4 +13,4 @@ firstPublicationDate: '2019-10-19'
 THEIA_WEBVIEW_EXTERNAL_ENDPOINT: '192.168.64.9.nip.io'
 spec:
   extensions:
-  - https://github.com/nsharma1989/my-plugin-registry/raw/master/ibm/zopendebug-profileui/1.0.1/zopendebug-profileui-1.0.0.vsix
+  - https://github.com/nsharma1989/my-plugin-registry/raw/master/ibm/zopendebug-profileui/1.0.1/zopendebug-profileui-1.0.1.vsix
