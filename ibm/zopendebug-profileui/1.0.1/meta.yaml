@@ -1,10 +1,10 @@
 apiVersion: v2
 publisher: ibm
 name: zopendebug-profileui-test
-version: 1.1.1
+version: 1.0.1
 type: VS Code extension
-displayName: zopendebug-profileui
-title: zopendebug-profileui
+displayName: zopendebug-profileui-test
+title: zopendebug-profileui-test
 description: A test extension
 icon: https://github.com/CoenraadS/BracketPair/raw/develop/images/icon.png
 repository: https://github.com/nsharma1989/carbon-tutorial
