@@ -12,9 +12,9 @@ type: VS Code extension
 firstPublicationDate: '2019-10-19'
 spec:
   containers:
-  - image: 'debugtorolab1.fyre.ibm.com:5000/wazi-debug-profile:1.1.0'
-    name: ibm-wazi
-    memoryLimit: "3000Mi"
+  - image: 'docker.io/ibmcom/wazi-code-codeready:latest'
+    name: wazi
+    memoryLimit: "512Mi"
     args:
       - sh
       - -c
