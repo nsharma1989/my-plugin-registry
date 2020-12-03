@@ -8,6 +8,7 @@ title: zopendebug-extensions
 description: A test extension
 repository: https://github.com/nsharma1989/carbon-tutorial
 category: Other
+type: VS Code extension
 firstPublicationDate: '2019-10-19'
 spec:
   containers:
