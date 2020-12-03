@@ -11,7 +11,7 @@ category: Other
 firstPublicationDate: '2019-10-19'
 spec:
   containers:
-  - image: 'docker.io/ibmcom/wazi-code-operator-catalog@sha256:0d1cb751cd2139f79faea2e79c9930339c7ef96ab425f6760a3ca6144a44483f'
+  - image: 'docker.io/ibmcom/wazi-code-operator-catalog@sha256:00b36bdfba28596b01fcaf3ef29c81f8e7e8ff3c7809617907a34f9a94c5403b'
     name: ibm-wazi
     memoryLimit: "3000Mi"
     args:
