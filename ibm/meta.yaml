@@ -10,19 +10,6 @@ repository: https://github.com/nsharma1989/carbon-tutorial
 category: Other
 firstPublicationDate: '2019-10-19'
 spec:
-  containers:
-  - image: 'debugtorolab1.fyre.ibm.com:5000/wazi-debug-profile:1.1.0'
-    name: ibm-wazi
-    memoryLimit: "3000Mi"
-    args:
-      - sh
-      - -c
-      - ${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}
-    volumes:
-    - mountPath: "/home/wazi/.zowe"
-      name: wazi
-    - mountPath: "/home/wazi/.m2"
-      name: m2
   extensions:
   - https://github.com/nsharma1989/my-plugin-registry/raw/master/ibm/zopendebug-profileui/1.0.1/zopendebug-profileui-1.2.0.vsix
   - https://github.com/nsharma1989/my-plugin-registry/raw/master/ibm/zopendebug/1.0.1/zopendebug-1.0.0.vsix
