@@ -1,0 +1,17 @@
+
+apiVersion: v2
+publisher: ibm
+name: zopendebug-extensions
+version: 1.0.1
+type: VS Code extension
+displayName: zopendebug-extensions
+title: zopendebug-extensions
+description: A test extension
+repository: https://github.com/nsharma1989/carbon-tutorial
+category: Other
+type: VS Code extension
+firstPublicationDate: '2019-10-19'
+spec:
+  extensions:
+  - https://github.com/nsharma1989/my-plugin-registry/raw/master/ibm/zopendebug-profileui.vsix
+  - https://github.com/nsharma1989/my-plugin-registry/raw/master/ibm/zopendebug/1.0.1/zopendebug-1.0.0.vsix
