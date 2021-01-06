@@ -12,7 +12,7 @@ category: Other
 firstPublicationDate: '2019-10-19'
 spec:
   containers:
-  - image: docker.io/ibmcom/wazi-code-codeready:sha256:9b05fc189b406bc2d1c68dcce98035dde87ce43487906e5fa8df85dd6e8d6488
+  - image: docker.io/ibmcom/wazi-code-codeready:latest
     name: ibm-wazi
     memoryLimit: "3000Mi"
     args:
