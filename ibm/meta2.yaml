@@ -24,6 +24,8 @@ spec:
       name: wazi
     - mountPath: "/home/wazi/.m2"
       name: m2
+    - mountPath: "/home/wazi/.debug"
+      name: debug
   extensions:
   - https://github.com/nsharma1989/my-plugin-registry/raw/master/ibm/zopendebug-profileui.vsix
   - https://github.com/nsharma1989/my-plugin-registry/raw/master/ibm/zopendebug/1.0.1/zopendebug-1.0.0.vsix
